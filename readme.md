@@ -6,4 +6,5 @@
 * Increased pinky stagger
 * Inner-most thumb key moved to utilize 1u instead of 1.5u
 
-![pierce PBC](assets/pcb.png "pierce PBC")
+![pierce PBC front](assets/pcbf.png "pierce PBC")
+![pierce PBC back](assets/pcbb.png "pierce PBC")
