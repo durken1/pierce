@@ -1,4 +1,4 @@
-20198869042151988
+20200484142385988
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -87863,6 +87863,13 @@ R
 0
 2
 2
+pierce
+Rotary_encoder_conn
+Through hole straight socket strip, 1x03, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
+Through hole socket strip THT 1x03 2.54mm single row
+0
+3
+3
 pierce
 TRACKPOINT
 Connecteur 6 pins

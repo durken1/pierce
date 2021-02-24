@@ -1274,28 +1274,6 @@ Connection ~ 7450 1950
 Wire Wire Line
 	8350 1950 8250 1950
 Connection ~ 8250 1950
-$Comp
-L Connector_Generic:Conn_01x10 J1
-U 1 1 6027B116
-P 5750 1150
-F 0 "J1" V 5967 1096 50  0000 C CNN
-F 1 "Conn_01x10" V 5876 1096 50  0000 C CNN
-F 2 "Connector_IDC:IDC-Header_2x06_P2.54mm_Horizontal" H 5750 1150 50  0001 C CNN
-F 3 "~" H 5750 1150 50  0001 C CNN
-	1    5750 1150
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x10 J2
-U 1 1 6027C8CF
-P 5750 3950
-F 0 "J2" V 5967 3896 50  0000 C CNN
-F 1 "Conn_01x10" V 5876 3896 50  0000 C CNN
-F 2 "Connector_IDC:IDC-Header_2x06_P2.54mm_Horizontal" H 5750 3950 50  0001 C CNN
-F 3 "~" H 5750 3950 50  0001 C CNN
-	1    5750 3950
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	5350 1350 5350 1550
 Wire Wire Line
@@ -1424,4 +1402,108 @@ Wire Wire Line
 	7150 1350 7150 1300
 Wire Wire Line
 	7450 1300 7450 1950
+$Comp
+L Connector_Generic:Conn_01x12 J1
+U 1 1 603779EC
+P 5850 1150
+F 0 "J1" V 6067 1096 50  0000 C CNN
+F 1 "Conn_01x12" V 5976 1096 50  0000 C CNN
+F 2 "Connector_IDC:IDC-Header_2x06_P2.54mm_Horizontal" H 5850 1150 50  0001 C CNN
+F 3 "~" H 5850 1150 50  0001 C CNN
+	1    5850 1150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x12 J2
+U 1 1 6038862C
+P 5850 3950
+F 0 "J2" V 6067 3896 50  0000 C CNN
+F 1 "Conn_01x12" V 5976 3896 50  0000 C CNN
+F 2 "Connector_IDC:IDC-Header_2x06_P2.54mm_Horizontal" H 5850 3950 50  0001 C CNN
+F 3 "~" H 5850 3950 50  0001 C CNN
+	1    5850 3950
+	0    -1   -1   0   
+$EndComp
+Text GLabel 6350 4350 3    50   Input ~ 0
+rota
+Text GLabel 6450 4350 3    50   Input ~ 0
+rotb
+Wire Wire Line
+	6350 1550 6350 1350
+Wire Wire Line
+	6450 1550 6450 1350
+Wire Wire Line
+	6350 4350 6350 4150
+Wire Wire Line
+	6450 4350 6450 4150
+Text GLabel 9100 4250 2    50   Input ~ 0
+rota
+Text GLabel 9100 4150 2    50   Input ~ 0
+rotb
+Wire Wire Line
+	9100 4150 8950 4150
+Wire Wire Line
+	9100 4250 8950 4250
+Text GLabel 6350 1550 3    50   Input ~ 0
+rotal
+Text GLabel 6450 1550 3    50   Input ~ 0
+rotbl
+Wire Wire Line
+	5950 1550 5950 1350
+$Comp
+L power:GND #PWR0103
+U 1 1 60494EAD
+P 5950 4350
+F 0 "#PWR0103" H 5950 4100 50  0001 C CNN
+F 1 "GND" V 5955 4222 50  0000 R CNN
+F 2 "" H 5950 4350 50  0001 C CNN
+F 3 "" H 5950 4350 50  0001 C CNN
+	1    5950 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 4350 5950 4150
+$Comp
+L Device:Rotary_Encoder SW38
+U 1 1 604AF34E
+P 5500 2550
+F 0 "SW38" H 5443 2183 50  0000 C CNN
+F 1 "Rotary_Encoder" H 5443 2274 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 5350 2710 50  0001 C CNN
+F 3 "~" H 5500 2810 50  0001 C CNN
+	1    5500 2550
+	-1   0    0    1   
+$EndComp
+Text GLabel 5950 2650 2    50   Input ~ 0
+rotal
+Text GLabel 5950 2450 2    50   Input ~ 0
+rotbl
+Wire Wire Line
+	5800 2450 5950 2450
+Wire Wire Line
+	5800 2550 5950 2550
+Wire Wire Line
+	5800 2650 5950 2650
+$Comp
+L power:GND1 #PWR?
+U 1 1 604FF809
+P 5950 1550
+F 0 "#PWR?" H 5950 1300 50  0001 C CNN
+F 1 "GND1" H 5955 1377 50  0000 C CNN
+F 2 "" H 5950 1550 50  0001 C CNN
+F 3 "" H 5950 1550 50  0001 C CNN
+	1    5950 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND1 #PWR?
+U 1 1 60513148
+P 5950 2550
+F 0 "#PWR?" H 5950 2300 50  0001 C CNN
+F 1 "GND1" V 5955 2422 50  0000 R CNN
+F 2 "" H 5950 2550 50  0001 C CNN
+F 3 "" H 5950 2550 50  0001 C CNN
+	1    5950 2550
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
