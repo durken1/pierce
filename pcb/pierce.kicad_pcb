@@ -215,6 +215,8 @@
     (add_net "Net-(D7-Pad2)")
     (add_net "Net-(D8-Pad2)")
     (add_net "Net-(D9-Pad2)")
+    (add_net "Net-(U1-Pad1)")
+    (add_net "Net-(U1-Pad24)")
     (add_net SCL)
     (add_net SDA)
     (add_net VCC)
