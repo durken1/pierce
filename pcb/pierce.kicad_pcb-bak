@@ -215,6 +215,8 @@
     (add_net "Net-(D7-Pad2)")
     (add_net "Net-(D8-Pad2)")
     (add_net "Net-(D9-Pad2)")
+    (add_net "Net-(U1-Pad1)")
+    (add_net "Net-(U1-Pad24)")
     (add_net SCL)
     (add_net SDA)
     (add_net VCC)
@@ -246,6 +248,175 @@
     (add_net row2l)
     (add_net row3)
     (add_net row3l)
+  )
+
+
+  (module kbd:M2_HOLE_v2 (layer F.Cu) (tedit 5F7666A4) (tstamp 602EF068)
+    (at 53.6717 57.265644)
+    (descr "Mounting Hole 2.2mm, no annular, M2")
+    (tags "mounting hole 2.2mm no annular m2")
+    (attr virtual)
+    (fp_text reference Ref** (at -0.95 -0.55) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Val** (at 0 0.55) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 4.3 4.3) (drill 4.3) (layers *.Cu *.Mask))
+  )
+
+  (module kbd:M2_HOLE_v2 (layer F.Cu) (tedit 5F7666A4) (tstamp 602EEE9E)
+    (at 53.6717 76.265644)
+    (descr "Mounting Hole 2.2mm, no annular, M2")
+    (tags "mounting hole 2.2mm no annular m2")
+    (attr virtual)
+    (fp_text reference Ref** (at -0.95 -0.55) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Val** (at 0 0.55) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 4.3 4.3) (drill 4.3) (layers *.Cu *.Mask))
+  )
+
+  (module kbd:M2_HOLE_v2 (layer F.Cu) (tedit 5F7666A4) (tstamp 602EEE95)
+    (at 110.6484 46.0756)
+    (descr "Mounting Hole 2.2mm, no annular, M2")
+    (tags "mounting hole 2.2mm no annular m2")
+    (attr virtual)
+    (fp_text reference Ref** (at -0.95 -0.55) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Val** (at 0 0.55) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 4.3 4.3) (drill 4.3) (layers *.Cu *.Mask))
+  )
+
+  (module kbd:M2_HOLE_v2 (layer F.Cu) (tedit 5F7666A4) (tstamp 602EEE68)
+    (at 124.3984 93.5856)
+    (descr "Mounting Hole 2.2mm, no annular, M2")
+    (tags "mounting hole 2.2mm no annular m2")
+    (attr virtual)
+    (fp_text reference Ref** (at -0.95 -0.55) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Val** (at 0 0.55) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 4.3 4.3) (drill 4.3) (layers *.Cu *.Mask))
+  )
+
+  (module kbd:M2_HOLE_v2 (layer F.Cu) (tedit 5F7666A4) (tstamp 602EEE51)
+    (at 77.8284 85.835644)
+    (descr "Mounting Hole 2.2mm, no annular, M2")
+    (tags "mounting hole 2.2mm no annular m2")
+    (attr virtual)
+    (fp_text reference Ref** (at -0.95 -0.55) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Val** (at 0 0.55) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 4.3 4.3) (drill 4.3) (layers *.Cu *.Mask))
+  )
+
+  (module kbd:M2_HOLE_v2 (layer F.Cu) (tedit 5F7666A4) (tstamp 602EEE08)
+    (at 243.2525 57.2707)
+    (descr "Mounting Hole 2.2mm, no annular, M2")
+    (tags "mounting hole 2.2mm no annular m2")
+    (attr virtual)
+    (fp_text reference Ref** (at -0.95 -0.55) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Val** (at 0 0.55) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 4.3 4.3) (drill 4.3) (layers *.Cu *.Mask))
+  )
+
+  (module kbd:M2_HOLE_v2 (layer F.Cu) (tedit 5F7666A4) (tstamp 602EEDEF)
+    (at 243.2525 76.2707)
+    (descr "Mounting Hole 2.2mm, no annular, M2")
+    (tags "mounting hole 2.2mm no annular m2")
+    (attr virtual)
+    (fp_text reference Ref** (at -0.95 -0.55) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Val** (at 0 0.55) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 4.3 4.3) (drill 4.3) (layers *.Cu *.Mask))
+  )
+
+  (module kbd:M2_HOLE_v2 (layer F.Cu) (tedit 5F7666A4) (tstamp 602EEDD0)
+    (at 186.2758 46.0807)
+    (descr "Mounting Hole 2.2mm, no annular, M2")
+    (tags "mounting hole 2.2mm no annular m2")
+    (attr virtual)
+    (fp_text reference Ref** (at -0.95 -0.55) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Val** (at 0 0.55) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 4.3 4.3) (drill 4.3) (layers *.Cu *.Mask))
+  )
+
+  (module kbd:M2_HOLE_v2 (layer F.Cu) (tedit 5F7666A4) (tstamp 602EEDA9)
+    (at 172.5258 93.5907)
+    (descr "Mounting Hole 2.2mm, no annular, M2")
+    (tags "mounting hole 2.2mm no annular m2")
+    (attr virtual)
+    (fp_text reference Ref** (at -0.95 -0.55) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Val** (at 0 0.55) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 4.3 4.3) (drill 4.3) (layers *.Cu *.Mask))
+  )
+
+  (module kbd:M2_HOLE_v2 (layer F.Cu) (tedit 5F7666A4) (tstamp 602EED61)
+    (at 219.0958 85.8407)
+    (descr "Mounting Hole 2.2mm, no annular, M2")
+    (tags "mounting hole 2.2mm no annular m2")
+    (attr virtual)
+    (fp_text reference Ref** (at -0.95 -0.55) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Val** (at 0 0.55) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 4.3 4.3) (drill 4.3) (layers *.Cu *.Mask))
+  )
+
+  (module kbd:M2_Threads_v2 (layer F.Cu) (tedit 5F7666D2) (tstamp 602C0438)
+    (at 149.51 70.9)
+    (descr "Mounting Hole 2.2mm, no annular, M2")
+    (tags "mounting hole 2.2mm no annular m2")
+    (attr virtual)
+    (fp_text reference Ref** (at -0.95 -0.55) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Val** (at 0 0.55) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 2.3 2.3) (drill 2.3) (layers *.Cu *.Mask))
+  )
+
+  (module kbd:M2_Threads_v2 (layer F.Cu) (tedit 602A6FDC) (tstamp 602BF8DD)
+    (at 162.58 75.53)
+    (descr "Mounting Hole 2.2mm, no annular, M2")
+    (tags "mounting hole 2.2mm no annular m2")
+    (attr virtual)
+    (fp_text reference Ref** (at -0.95 -0.55) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Val** (at 0 0.55) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 1.379847 0) (size 2.3 2.3) (drill 2.3) (layers *.Cu *.Mask))
   )
 
   (module pierce:Rotary_encoder_conn (layer F.Cu) (tedit 6036342B) (tstamp 6036A59A)
