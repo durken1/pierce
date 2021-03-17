@@ -1,10 +1,9 @@
-# pierce, a modded crkbd
+# pierce keyboard
 
+* Based on crkbd
 * Soldered Cherry MX / Kailh choc / alps
-* Using one MCU and an IDC connection between halves.
-* Trackpoint connection instead of OLED
-* 3x5+3
-* Increased pinky stagger
-* Inner-most thumb key moved to utilize 1u instead of 1.5u
+* Using one MCU and an IDC connection between halves
+* Trackpoint connection instead of OLED, including reset circuit
+* Split 3x5+3 column stagger
 
 ![pierce](assets/pic.jpg "pierce")
