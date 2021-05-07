@@ -113,7 +113,7 @@
       "x": 2,
       "t": "#000000\n\n#0000ff"
     },
-    "M\n\n%"
+    "M"
   ],
   [
     {
@@ -131,9 +131,9 @@
     {
       "y": -0.5,
       "x": 2,
-      "t": "#000000\n\n#0000ff"
+      "t": "#000000\n#0e8c49\n#0000ff"
     },
-    "C\n\n{",
+    "C\n<i class='kb kb-Multimedia-Volume-Down-2'></i>\n{",
     {
       "x": 6,
       "t": "#000000\n#0e8c49\n#0000ff\n#ff0000"
@@ -146,12 +146,12 @@
       "x": 1,
       "t": "#000000"
     },
-    "X",
+    "X\n\n%",
     {
       "x": 1,
-      "t": "#000000\n#0e8c49"
+      "t": "#000000\n#0e8c49\n#0000ff"
     },
-    "D\n<i class='kb kb-Multimedia-Volume-Down-2'></i>",
+    "D\n<i class='kb kb-Multimedia-Volume-Up-2'></i>\n<",
     {
       "x": 4,
       "t": "#000000\n#0e8c49\n#0000ff\n#ff0000"
@@ -168,7 +168,7 @@
       "x": 4,
       "t": "#000000\n#0e8c49"
     },
-    "V\n<i class='kb kb-Multimedia-Volume-Up-2'></i>",
+    "V",
     {
       "x": 2,
       "t": "#000000"
