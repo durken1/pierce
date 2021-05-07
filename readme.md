@@ -7,3 +7,6 @@
 * Split 3x5+3 column stagger
 
 ![pierce](assets/pic.jpg "pierce")
+
+Default keymap
+![keymap](layout/keyboard-layout.png "layout")
