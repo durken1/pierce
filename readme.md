@@ -9,4 +9,5 @@
 ![pierce](assets/pic.jpg "pierce")
 
 Default keymap
+
 ![keymap](layout/keyboard-layout.png "layout")
