@@ -6,6 +6,8 @@
 * Trackpoint connection including reset circuit
 * Split 3x5+3 column stagger
 
+Firmware: https://github.com/durken1/qmk_firmware/tree/pierce/keyboards/pierce
+
 ![pierce](assets/pic.jpg "pierce")
 
 Default keymap
