@@ -15,6 +15,7 @@
 |  36 | Switches                                      | MX, Choc V1 or alps                                 |
 |   1 | Microcontroller                               | Elite-c recommended if using trackpoint             |
 |   2 | Angled 12 pin IDC connector                   | [Example](https://www.conrad.com/p/tru-components-1589771-pin-connector-no-ejector-contact-spacing-254-mm-total-number-of-pins-12-no-of-rows-2-1-pcs-1589771)|
+|   2 | 12 pin IDC pin connector                      | [Example](https://www.conrad.com/p/bkl-electronic-10120991-pin-connector-strain-relief-contact-spacing-254-mm-total-number-of-pins-12-no-of-rows-2-1-2103795)|
 |   1 | 12 connector ribbon cable                     | [Example](https://www.conrad.com/p/lapp-49900055-ribbon-cable-contact-spacing-127-mm-14-x-009-mm-grey-sold-per-metre-609735)|
 |   1 | 6.5 mm reset switch                           | [Example](https://www.conrad.com/p/tru-components-yst-1101-pushbutton-12-v-dc-005-a-1-x-offon-momentary-1-pcs-1569015)|
 
