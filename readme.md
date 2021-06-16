@@ -28,6 +28,12 @@ If using trackpoint:
 |   2 | 4.7 kOhm resistor                             | SMD 1206                                                    |
 |   1 | 2.2 uF capacitor                              | SMD 1206                                                    |
 
+For 3D-printed case:
+| Qty | Item                                          | Notes                                               |
+|----:|-----------------------------------------------|-----------------------------------------------------|
+|  10 | 6mm M2 spacer                                 |                                                     |
+|  20 | 6mm M2 screw                                  | Countersunk recommended                             |
+
 [Firmware](https://github.com/durken1/qmk_firmware/tree/pierce/keyboards/pierce)
 
 ![pierce](assets/pic.jpg "pierce")
