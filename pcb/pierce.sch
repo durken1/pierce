@@ -55,47 +55,6 @@ Wire Wire Line
 Connection ~ 10700 3250
 Wire Wire Line
 	10700 3250 10750 3250
-Text GLabel 10750 4150 2    50   Input ~ 0
-col4
-Text GLabel 10750 4050 2    50   Input ~ 0
-col5
-Text GLabel 10750 3950 2    50   Input ~ 0
-col6
-Text GLabel 10750 3850 2    50   Input ~ 0
-col7
-Text GLabel 10750 3750 2    50   Input ~ 0
-col8
-Text GLabel 10750 3650 2    50   Input ~ 0
-col9
-Wire Wire Line
-	10600 3650 10750 3650
-Wire Wire Line
-	10600 3750 10750 3750
-Wire Wire Line
-	10600 3850 10750 3850
-Wire Wire Line
-	10600 3950 10750 3950
-Wire Wire Line
-	10600 4050 10750 4050
-Wire Wire Line
-	10600 4150 10750 4150
-$Comp
-L pierce:SW_PUSH SW37
-U 1 1 60617B11
-P 9950 5400
-F 0 "SW37" H 9950 5400 50  0000 C CNN
-F 1 "SW_PUSH" H 9950 5564 50  0000 C CNN
-F 2 "kbd:ResetSW_1side" H 9950 5400 50  0001 C CNN
-F 3 "" H 9950 5400 50  0000 C CNN
-	1    9950 5400
-	1    0    0    -1  
-$EndComp
-Text GLabel 9550 5400 0    50   Input ~ 0
-reset
-Wire Wire Line
-	9550 5400 9650 5400
-Wire Wire Line
-	10250 5500 10250 5400
 $Comp
 L Device:R R2
 U 1 1 60698734
@@ -225,38 +184,6 @@ Text GLabel 9050 3250 0    50   Input ~ 0
 reset
 Wire Wire Line
 	9200 3250 9050 3250
-Text GLabel 9050 3450 0    50   Input ~ 0
-row0
-Text GLabel 9050 3550 0    50   Input ~ 0
-row1
-Text GLabel 9050 3650 0    50   Input ~ 0
-row2
-Text GLabel 9050 3750 0    50   Input ~ 0
-row3
-Text GLabel 9050 3850 0    50   Input ~ 0
-col0
-Text GLabel 9050 3950 0    50   Input ~ 0
-col1
-Text GLabel 9050 4050 0    50   Input ~ 0
-col2
-Text GLabel 9050 4150 0    50   Input ~ 0
-col3
-Wire Wire Line
-	9050 3450 9200 3450
-Wire Wire Line
-	9050 3550 9200 3550
-Wire Wire Line
-	9050 3650 9200 3650
-Wire Wire Line
-	9050 3750 9200 3750
-Wire Wire Line
-	9050 3850 9200 3850
-Wire Wire Line
-	9050 3950 9200 3950
-Wire Wire Line
-	9050 4050 9200 4050
-Wire Wire Line
-	9050 4150 9200 4150
 Wire Wire Line
 	9200 3350 9050 3350
 Wire Wire Line
@@ -267,14 +194,6 @@ Wire Wire Line
 	10000 4650 10000 4550
 Wire Wire Line
 	9500 1250 9500 1900
-Text GLabel 10750 3550 2    50   Input ~ 0
-rota
-Text GLabel 10750 3450 2    50   Input ~ 0
-rotb
-Wire Wire Line
-	10750 3450 10600 3450
-Wire Wire Line
-	10750 3550 10600 3550
 $Comp
 L pierce:SW_PUSH SW22
 U 1 1 6046F9A4
@@ -888,41 +807,41 @@ Wire Wire Line
 	5100 4550 5100 4600
 Wire Wire Line
 	5100 5100 5100 5150
-Text GLabel 7750 3850 2    50   Input ~ 0
-SW00R
-Text GLabel 7750 3950 2    50   Input ~ 0
-SW01R
 Text GLabel 7750 4050 2    50   Input ~ 0
-SW02R
+SW00R
 Text GLabel 7750 4150 2    50   Input ~ 0
-SW03R
+SW01R
 Text GLabel 7750 4450 2    50   Input ~ 0
-SW04R
+SW02R
 Text GLabel 7750 4550 2    50   Input ~ 0
-SW14R
+SW03R
 Text GLabel 7750 4650 2    50   Input ~ 0
-SW13R
+SW04R
 Text GLabel 7750 4750 2    50   Input ~ 0
-SW12R
+SW14R
 Text GLabel 7750 4850 2    50   Input ~ 0
-SW11R
+SW13R
 Text GLabel 7750 4950 2    50   Input ~ 0
-SW10R
+SW12R
 Text GLabel 7300 5450 3    50   Input ~ 0
-SW24R
+SW11R
 Text GLabel 7200 5450 3    50   Input ~ 0
-SW23R
+SW10R
 Text GLabel 7100 5450 3    50   Input ~ 0
-SW22R
+SW24R
 Text GLabel 7000 5450 3    50   Input ~ 0
-SW21R
+SW23R
 Text GLabel 6900 5450 3    50   Input ~ 0
-SW20R
+SW22R
 Text GLabel 6800 5450 3    50   Input ~ 0
-SW32R
+SW21R
 Text GLabel 6700 5450 3    50   Input ~ 0
-SW31R
+SW20R
 Text GLabel 6600 5450 3    50   Input ~ 0
+SW32R
+Text GLabel 6500 5450 3    50   Input ~ 0
+SW31R
+Text GLabel 6400 5450 3    50   Input ~ 0
 SW30R
 Wire Wire Line
 	7700 3850 7750 3850
@@ -945,10 +864,6 @@ Wire Wire Line
 Wire Wire Line
 	7750 4950 7700 4950
 Wire Wire Line
-	7300 5450 7300 5400
-Wire Wire Line
-	7200 5400 7200 5450
-Wire Wire Line
 	7100 5450 7100 5400
 Wire Wire Line
 	7000 5400 7000 5450
@@ -960,6 +875,10 @@ Wire Wire Line
 	6700 5450 6700 5400
 Wire Wire Line
 	6600 5400 6600 5450
+Wire Wire Line
+	6500 5450 6500 5400
+Wire Wire Line
+	6400 5400 6400 5450
 Text GLabel 7750 4250 2    50   Input ~ 0
 CLKR
 Text GLabel 7750 4350 2    50   Input ~ 0
@@ -1508,17 +1427,6 @@ F 3 "" H 10750 3250 50  0001 C CNN
 	1    10750 3250
 	0    -1   -1   0   
 $EndComp
-$Comp
-L pierce:GND_R #PWR?
-U 1 1 60F94787
-P 10250 5500
-F 0 "#PWR?" H 10250 5250 50  0001 C CNN
-F 1 "GND_R" H 10255 5327 50  0000 C CNN
-F 2 "" H 10250 5500 50  0001 C CNN
-F 3 "" H 10250 5500 50  0001 C CNN
-	1    10250 5500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2750 6800 2750 6750
 Wire Wire Line
@@ -1654,6 +1562,42 @@ F 1 "GND_L" H 5455 6677 50  0000 C CNN
 F 2 "" H 5450 6850 50  0001 C CNN
 F 3 "" H 5450 6850 50  0001 C CNN
 	1    5450 6850
+	1    0    0    -1  
+$EndComp
+Text GLabel 7750 3850 2    50   Input ~ 0
+I2C_SDA
+Text GLabel 7750 3950 2    50   Input ~ 0
+I2C_SCL
+Text GLabel 10600 3450 2    50   Input ~ 0
+I2C_SDA
+Text GLabel 10600 3550 2    50   Input ~ 0
+I2C_SCL
+$Comp
+L pierce:GND_R #PWR?
+U 1 1 60F94787
+P 10250 5550
+F 0 "#PWR?" H 10250 5300 50  0001 C CNN
+F 1 "GND_R" H 10255 5377 50  0000 C CNN
+F 2 "" H 10250 5550 50  0001 C CNN
+F 3 "" H 10250 5550 50  0001 C CNN
+	1    10250 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10250 5550 10250 5450
+Wire Wire Line
+	9550 5450 9650 5450
+Text GLabel 9550 5450 0    50   Input ~ 0
+reset
+$Comp
+L pierce:SW_PUSH SW37
+U 1 1 60617B11
+P 9950 5450
+F 0 "SW37" H 9950 5450 50  0000 C CNN
+F 1 "SW_PUSH" H 9950 5614 50  0000 C CNN
+F 2 "kbd:ResetSW_1side" H 9950 5450 50  0001 C CNN
+F 3 "" H 9950 5450 50  0000 C CNN
+	1    9950 5450
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
