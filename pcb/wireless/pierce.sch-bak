@@ -328,9 +328,9 @@ F 3 "~" H 8600 1200 50  0001 C CNN
 	1    8600 1200
 	0    1    1    0   
 $EndComp
-Text GLabel 8600 1400 3    50   Input ~ 0
-CLKL
 Text GLabel 8500 1400 3    50   Input ~ 0
+CLKL
+Text GLabel 8600 1400 3    50   Input ~ 0
 DIOL
 $Comp
 L pierce:Device_Battery_Cell BT1

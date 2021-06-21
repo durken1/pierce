@@ -10,16 +10,6 @@ D Power symbol creates a global label with name "GND_R" , ground
 K power-flag
 $ENDCMP
 #
-$CMP VCC_3.3V
-D Power symbol creates a global label with name "VCC_3.3V"
-K power-flag
-$ENDCMP
-#
-$CMP VCC_5V
-D Power symbol creates a global label with name "VCC_5V"
-K power-flag
-$ENDCMP
-#
 $CMP VCC_L
 D Power symbol creates a global label with name "VCC_L"
 K power-flag
