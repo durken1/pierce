@@ -4,7 +4,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "pierce keyboard - wired"
+Title "pierce keyboard - wired side"
 Date "2021-06-16"
 Rev "v 2.0"
 Comp ""
@@ -61,14 +61,10 @@ Text GLabel 9450 1250 2    50   Input ~ 0
 SDA
 Text GLabel 8850 2650 3    50   Input ~ 0
 SCL
-Text GLabel 6350 3800 3    50   Input ~ 0
+Text GLabel 6350 3750 3    50   Input ~ 0
 SDA
-Text GLabel 6150 3800 3    50   Input ~ 0
+Text GLabel 6150 3750 3    50   Input ~ 0
 SCL
-Wire Wire Line
-	6150 3800 6150 3750
-Wire Wire Line
-	6350 3800 6350 3750
 Wire Wire Line
 	5850 4400 5750 4400
 Wire Wire Line
@@ -94,17 +90,6 @@ Connection ~ 6250 4400
 Wire Wire Line
 	7150 4400 7050 4400
 Connection ~ 7050 4400
-$Comp
-L pierce:Trackpoint TP1
-U 1 1 60324084
-P 6150 3400
-F 0 "TP1" V 6212 3688 50  0000 L CNN
-F 1 "Trackpoint" V 6303 3688 50  0000 L CNN
-F 2 "pierce:TRACKPOINT" H 6150 3400 50  0001 C CNN
-F 3 "" H 6150 3400 50  0001 C CNN
-	1    6150 3400
-	0    1    1    0   
-$EndComp
 $Comp
 L pierce:Elite-C_reverse AVR1
 U 1 1 60306147
@@ -439,9 +424,9 @@ F 3 "~" H 1100 3650 50  0001 C CNN
 	1    1100 3650
 	0    1    1    0   
 $EndComp
-Text GLabel 1100 3900 3    50   Input ~ 0
+Text GLabel 1100 3850 3    50   Input ~ 0
 CLKR
-Text GLabel 1000 3900 3    50   Input ~ 0
+Text GLabel 1000 3850 3    50   Input ~ 0
 DIOR
 $Comp
 L Regulator_Linear:LD1117S33TR_SOT223 REG1
@@ -454,16 +439,6 @@ F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/da
 	1    2850 3800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1000 3900 1000 3850
-Wire Wire Line
-	1100 3850 1100 3900
-Wire Wire Line
-	5950 3800 5950 3750
-Wire Wire Line
-	900  4000 900  3850
-Wire Wire Line
-	1200 3850 1200 4000
 Text GLabel 6900 1050 2    50   Input ~ 0
 I2C_SDA
 Text GLabel 6900 1150 2    50   Input ~ 0
@@ -489,9 +464,9 @@ F 3 "" H 4650 4550 50  0000 C CNN
 	1    4650 4550
 	1    0    0    -1  
 $EndComp
-Text GLabel 4300 3650 1    50   Input ~ 0
+Text GLabel 4300 3700 1    50   Input ~ 0
 I2C_SCL
-Text GLabel 4800 3650 1    50   Input ~ 0
+Text GLabel 4800 3700 1    50   Input ~ 0
 I2C_SDA
 $Comp
 L Device:R R4
@@ -515,10 +490,6 @@ F 3 "~" H 4800 3850 50  0001 C CNN
 	1    4800 3850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4300 3700 4300 3650
-Wire Wire Line
-	4800 3650 4800 3700
 NoConn ~ 8050 1150
 NoConn ~ 8050 1550
 NoConn ~ 8050 1650
@@ -535,8 +506,6 @@ NoConn ~ 9450 1950
 NoConn ~ 9450 1850
 NoConn ~ 9450 1750
 NoConn ~ 9450 1150
-Wire Wire Line
-	6050 3750 6050 3900
 Text GLabel 6400 2600 3    50   Input ~ 0
 SW12R
 Text GLabel 6500 2600 3    50   Input ~ 0
@@ -557,12 +526,12 @@ $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 60E3728E
-P 6050 3900
-F 0 "#PWR?" H 6050 3650 50  0001 C CNN
-F 1 "GND" H 6055 3727 50  0000 C CNN
-F 2 "" H 6050 3900 50  0001 C CNN
-F 3 "" H 6050 3900 50  0001 C CNN
-	1    6050 3900
+P 6050 3750
+F 0 "#PWR?" H 6050 3500 50  0001 C CNN
+F 1 "GND" V 6050 3550 50  0000 C CNN
+F 2 "" H 6050 3750 50  0001 C CNN
+F 3 "" H 6050 3750 50  0001 C CNN
+	1    6050 3750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -601,12 +570,12 @@ $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 60E45ECE
-P 1200 4000
-F 0 "#PWR?" H 1200 3750 50  0001 C CNN
-F 1 "GND" H 1205 3827 50  0000 C CNN
-F 2 "" H 1200 4000 50  0001 C CNN
-F 3 "" H 1200 4000 50  0001 C CNN
-	1    1200 4000
+P 1200 3850
+F 0 "#PWR?" H 1200 3600 50  0001 C CNN
+F 1 "GND" V 1200 3650 50  0000 C CNN
+F 2 "" H 1200 3850 50  0001 C CNN
+F 3 "" H 1200 3850 50  0001 C CNN
+	1    1200 3850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -865,13 +834,13 @@ $EndComp
 $Comp
 L pierce:VCC_5V #PWR?
 U 1 1 60E669AB
-P 5950 3800
-F 0 "#PWR?" H 5950 3650 50  0001 C CNN
-F 1 "VCC_5V" V 5965 3927 50  0000 L CNN
-F 2 "" H 5950 3800 50  0001 C CNN
-F 3 "" H 5950 3800 50  0001 C CNN
-	1    5950 3800
-	0    -1   -1   0   
+P 5950 3750
+F 0 "#PWR?" H 5950 3600 50  0001 C CNN
+F 1 "VCC_5V" V 5965 3877 50  0000 L CNN
+F 2 "" H 5950 3750 50  0001 C CNN
+F 3 "" H 5950 3750 50  0001 C CNN
+	1    5950 3750
+	-1   0    0    1   
 $EndComp
 $Comp
 L pierce:VCC_5V #PWR?
@@ -901,12 +870,12 @@ Connection ~ 9450 1350
 $Comp
 L pierce:VCC_3.3V #PWR?
 U 1 1 60E842A4
-P 900 4000
-F 0 "#PWR?" H 900 3850 50  0001 C CNN
-F 1 "VCC_3.3V" H 915 4173 50  0000 C CNN
-F 2 "" H 900 4000 50  0001 C CNN
-F 3 "" H 900 4000 50  0001 C CNN
-	1    900  4000
+P 900 3850
+F 0 "#PWR?" H 900 3700 50  0001 C CNN
+F 1 "VCC_3.3V" V 900 4150 50  0000 C CNN
+F 2 "" H 900 3850 50  0001 C CNN
+F 3 "" H 900 3850 50  0001 C CNN
+	1    900  3850
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -964,4 +933,15 @@ NoConn ~ 5000 1750
 NoConn ~ 5000 1850
 NoConn ~ 5000 1950
 NoConn ~ 5400 2600
+$Comp
+L pierce:Trackpoint TP1
+U 1 1 60324084
+P 6150 3400
+F 0 "TP1" V 6212 3688 50  0000 L CNN
+F 1 "Trackpoint" V 6303 3688 50  0000 L CNN
+F 2 "pierce:TRACKPOINT" H 6150 3400 50  0001 C CNN
+F 3 "" H 6150 3400 50  0001 C CNN
+	1    6150 3400
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

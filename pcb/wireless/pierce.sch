@@ -4,7 +4,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "pierce keyboard - wireless"
+Title "pierce keyboard - wireless side"
 Date "2021-06-16"
 Rev "v 2.0"
 Comp ""
@@ -604,8 +604,6 @@ F 3 "" H 9600 2400 50  0001 C CNN
 	1    9600 2400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8400 1400 8400 1500
 $Comp
 L power:GND #PWR027
 U 1 1 60D9115D
@@ -620,12 +618,12 @@ $EndComp
 $Comp
 L power:GND #PWR025
 U 1 1 60D91507
-P 8400 1500
-F 0 "#PWR025" H 8400 1250 50  0001 C CNN
-F 1 "GND" H 8405 1327 50  0000 C CNN
-F 2 "" H 8400 1500 50  0001 C CNN
-F 3 "" H 8400 1500 50  0001 C CNN
-	1    8400 1500
+P 8400 1400
+F 0 "#PWR025" H 8400 1150 50  0001 C CNN
+F 1 "GND" V 8400 1200 50  0000 C CNN
+F 2 "" H 8400 1400 50  0001 C CNN
+F 3 "" H 8400 1400 50  0001 C CNN
+	1    8400 1400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -661,17 +659,15 @@ F 3 "" H 9600 2100 50  0001 C CNN
 	1    9600 2100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8700 1500 8700 1400
 $Comp
 L power:VCC #PWR026
 U 1 1 60DA0767
-P 8700 1500
-F 0 "#PWR026" H 8700 1350 50  0001 C CNN
-F 1 "VCC" H 8715 1673 50  0000 C CNN
-F 2 "" H 8700 1500 50  0001 C CNN
-F 3 "" H 8700 1500 50  0001 C CNN
-	1    8700 1500
+P 8700 1400
+F 0 "#PWR026" H 8700 1250 50  0001 C CNN
+F 1 "VCC" V 8700 1600 50  0000 C CNN
+F 2 "" H 8700 1400 50  0001 C CNN
+F 3 "" H 8700 1400 50  0001 C CNN
+	1    8700 1400
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -756,4 +752,29 @@ Text GLabel 6250 5450 3    50   Input ~ 0
 SW33L
 Text GLabel 7700 2300 2    50   Input ~ 0
 SW34L
+NoConn ~ 5800 1800
+NoConn ~ 5800 1900
+NoConn ~ 5800 2000
+NoConn ~ 5800 2100
+NoConn ~ 7700 1400
+NoConn ~ 7700 1500
+NoConn ~ 7700 1600
+NoConn ~ 7700 1700
+NoConn ~ 7700 2000
+NoConn ~ 7700 2100
+NoConn ~ 7700 2200
+NoConn ~ 7700 2400
+NoConn ~ 7700 2500
+NoConn ~ 7750 4500
+NoConn ~ 7750 4600
+NoConn ~ 7750 4900
+NoConn ~ 7750 5000
+NoConn ~ 5850 4700
+NoConn ~ 5850 4600
+NoConn ~ 5850 4500
+NoConn ~ 5850 4400
+NoConn ~ 5850 4300
+NoConn ~ 5850 4200
+NoConn ~ 5850 4100
+NoConn ~ 5850 4000
 $EndSCHEMATC
