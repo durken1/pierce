@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name pierce-cache)(type Legacy)(uri ${KIPRJMOD}/pierce-cache.lib)(options "")(descr ""))
+  (lib (name pierce)(type Legacy)(uri ${KIPRJMOD}/pierce.lib)(options "")(descr ""))
+)
