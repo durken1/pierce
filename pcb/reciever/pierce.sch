@@ -40,7 +40,7 @@ U 1 1 60ECFA40
 P 1200 2750
 F 0 "PROGR1" V 1262 2894 50  0000 L CNN
 F 1 "Conn_01x04_Male" V 1353 2894 50  0000 L CNN
-F 2 "pierce:PinHeader_1x04_P2.54mm_Horizontal" H 1200 2750 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 1200 2750 50  0001 C CNN
 F 3 "~" H 1200 2750 50  0001 C CNN
 	1    1200 2750
 	0    1    1    0   
