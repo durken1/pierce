@@ -24,7 +24,7 @@ There are 3 different PCBs: wireless (reversible), wired (right) and reciever.
 |   2 | 2032 3.3V Coin cell battery                   |                                                     |
 |   3 | YJ-14015 / Core51822 (B)                      |                                                     |
 |   3 | 1x4 pin Right-angle 2.54 mm header            | For programming RF modulules. Optional, temporary soldered wires works fine|
-|   2 | 4k7 resistor                                  | SMD 1206                                            |
+|   2 | 4.7 kΩ resistor                               | SMD 1206                                            |
 |   1 | 1117 3.3 V regulator                          | SMD SOT-223                                         |
 |   1 | THT momentary switch                          | 2 pin THT 6 mm                                      |
   
@@ -38,9 +38,12 @@ There are 3 different PCBs: wireless (reversible), wired (right) and reciever.
 |   1 | 2032 3.3V Coin cell battery                   |                                                     |
 |   2 | YJ-14015 / Core51822 (B)                      |                                                     |
 |   2 | 1x4 pin Right-angle 2.54 mm header            | For programming RF modulules. Optional, temporary soldered wires works fine|
-|   2 | 4k7 resistor                                  | SMD 1206                                            |
+| 2/4 | 4.7 kΩ resistor                               | SMD 1206, 4 if using trackpoint, otherwise 2        |
 |   1 | 1117 3.3 V regulator                          | SMD SOT-223                                         |
 |   1 | THT momentary switch                          | 2 pin THT 6 mm                                      |
+|   1 | 100 kΩ resistor                               | SMD 1206 Only for trackpoint                        |
+|   1 | 2.2 uF capacitor                              | SMD 1206 Only for trackpoint                        |
+|   1 | Trackpoint module                             | [R61](https://deskthority.net/wiki/TrackPoint_Hardware#ThinkPad_R61_TrackPoint) recommended, Only for.. well..|
   
 # Build instructions
 * Solder stuff
