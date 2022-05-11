@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name pierce)(type KiCad)(uri ${KIPRJMOD}/pierce.pretty)(options "")(descr ""))
-)
