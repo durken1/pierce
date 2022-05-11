@@ -70,10 +70,14 @@ The following instructions is for using an ST-Link V2 clone and Windows.
 3. Copy the relevant firmware .bin file to the bin folder where you installed OpenOCD
 4. Connect the 4 pins SWCLK, SWDIO, GND and 3.3 V on the ST-Link V2 to the matching pad on the PCB and the ST-Link to the computer
 5. Open a command prompt, navigate to the bin folder mentioned above and enter:
-    openocd.exe -f openocd.cfg
+
+        openocd.exe -f openocd.cfg
+        
 6. Open another command prompt and enter:
-    telnet localhost 4444
+
+        telnet localhost 4444
 You should now be connected to the programmer. Enter the following commands to flash the firmware:
+
     halt
     nrf51 mass_erase
     program <firmware_file_name>.bin
