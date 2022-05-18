@@ -6,7 +6,7 @@
 * Trackpoint connection including reset circuit
 * Split 3x5+3 column stagger
 
-[Firmware](https://github.com/durken1/pierce-wmod) for wireless modules. (No documentation at the moment, but I'm working on redesigning the PCBs to have wireless support)
+[Firmware](https://github.com/durken1/pierce-wmod) for wireless modules. (No documentation at the moment, but I'm working on redesigning the PCBs to have wireless support in the develop branch)
 
 # Bill of materials
 | Qty | Item                                          | Notes                                               |
