@@ -7,7 +7,7 @@
 pierce 2.0 is a split modular wireless / semi-wireless 36 key column staggered keyboard. The design is inspired by [Corne](https://github.com/foostan/crkbd) with more pinky stagger as well as only using 1u keycaps.
 It is possible to build a wireless version or a semi wireless version. If building the wireless version an additional reciever dongle is required. 
 In the semi wireless version the wired half is also acting as a reciever for the wireless half.
-Both versions have full QMK support.  
+Both versions have full [QMK support](https://github.com/qmk/qmk_firmware/tree/master/keyboards/pierce).  
 Supported switches: MX, Choc V1, Alps
 
 The semi wireless version has a built in reset circuit for connecting a PS/2 pointing device.
@@ -84,4 +84,3 @@ You should now be connected to the programmer. Enter the following commands to f
     reset
 
 That's it! You should now have a working pierce keyboard.
-The QMK firmware for the dongle / wired half can be found here
