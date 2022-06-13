@@ -84,3 +84,7 @@ You should now be connected to the programmer. Enter the following commands to f
     reset
 
 That's it! You should now have a working pierce keyboard.
+
+# Plates
+## These need some work
+I have included files to 3D print bottom plates and switch plates (only for alps for now). The idea of the screwless bottom plates is to use a friction fit, but I'm not sure how well the current version fits.
