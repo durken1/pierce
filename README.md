@@ -1,5 +1,3 @@
-# Work in progress
-
 # pierce 2.0
 
 ![pierce](https://i.imgur.com/JOUH1UI.jpeg "pierce")  
