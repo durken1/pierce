@@ -1,6 +1,6 @@
 # pierce 2.0
 
-![pierce](https://i.imgur.com/JOUH1UI.jpeg "pierce")  
+![pierce](https://i.imgur.com/NX0cftl.jpg "pierce")  
 
 pierce 2.0 is a split modular wireless / semi-wireless 36 key column staggered keyboard. The design is inspired by [Corne](https://github.com/foostan/crkbd) with more pinky stagger as well as only using 1u keycaps.
 It is possible to build a wireless version or a semi wireless version. If building the wireless version an additional reciever dongle is required. 
